@@ -22,7 +22,7 @@ HWASan can detect:
 
 - **Linux AArch64** (kernel 5.4+ with tagged address ABI; globals tagging is not implemented)
 - **Android AArch64**
-- **Linux RISC-V 64**
+- **Linux RISC-V 64** (experimental; requires kernel with pointer masking support)
 - **Linux x86_64** (experimental; requires CPU with Intel LAM and kernel support)
 
 ## Usage
